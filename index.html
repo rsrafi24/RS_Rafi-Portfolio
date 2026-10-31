@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rafi's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+        <!-- google font link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caacupe+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    </head>
+    <body class="">
+        <nav class="bg-white sticky top-0 px-7 py-3 flex justify-between shadow-sm md:justify-around lg:justify-between lg:px-30">
+            <h1 class="text-xl font-bold lg:text-2xl">RS RAFI</h1>
+            <!-- for desktop -->
+            <ul class="hidden md:flex justify-evenly gap-6 text-md font-normal lg:text-xl">
+                <a href="#home"><li class="hover:text-blue-800 hover:scale-110 hover:transition-transform hover:duration-200">Home</li></a>
+                <a href="#about"><li class="hover:text-blue-800 hover:scale-110 hover:transition-transform hover:duration-200">About</li></a>
+                <a href="#skill"><li class="hover:text-blue-800 hover:scale-110 hover:transition-transform hover:duration-200">Skills</li></a>
+                <a href="#project"><li class="hover:text-blue-800 hover:scale-110 hover:transition-transform hover:duration-200">Projects</li></a>
+                <a href="#contact"><li class="hover:text-blue-800 hover:scale-110 hover:transition-transform hover:duration-200">Contact</li></a>
+            </ul>
+            <!-- for mobile -->
+            <details class="md:hidden">
+                <summary class="list-none text-xl cursor-pointer">
+                    <i class="fa-solid fa-bars"></i>
+                </summary>
+
+                <ul class="absolute right-10 top-10 z-50 flex-col border border-gray-100 bg-white px-5 py-3 shadow-lg rounded-xl">
+                    <a href="#home"><li class="block hover:text-blue-600 mb-3 text-lg font-medium hover:scale-110 cursor-pointer transition-transform duration-200">Home</li></a>
+                    <a href="#about"><li class="block hover:text-blue-600 mb-3 text-lg font-medium hover:scale-110 cursor-pointer transition-transform duration-200">About</li></a>
+                    <a href="#skill"><li class="block hover:text-blue-600 mb-3 text-lg font-medium hover:scale-110 cursor-pointer transition-transform duration-200">Skills</li></a>
+                    <a href="#project"><li class="block hover:text-blue-600 mb-3 text-lg font-medium hover:scale-110 cursor-pointer transition-transform duration-200">Projects</li></a>
+                    <a href="#contact"><li class="block hover:text-blue-600 mb-3 text-lg font-medium hover:scale-110 cursor-pointer transition-transform duration-200">Contact</li></a>
+                </ul>
+
+            </details>
+        </nav>
+
+        <main class="px-7 py-7 flex bg-slate-50 shadow-xs max-[465px]:flex-col lg:px-20 md:px-16" id="home">
+            <div class="w-2/3 md:flex md:flex-col md:justify-center md:px-10">
+                <p class="text-gray-700 font-medium mb-1 lg:text-xl">Hello, I'm</p>
+                <h1 class="text-4xl font-bold lg:text-6xl">RS Rafi</h1>
+                <h1 class="text-blue-700 text-lg font-bold mb-6 lg:text-xl">Frontend Developer</h1>
+                <p class="text-gray-700 mb-5 lg:text-xl">I build clean and responsive web experiences. Passionate about turning ideas into beautiful and functional Websites</p>
+                <a href="#project"><button class="bg-blue-700 text-white px-5 py-3 rounded-xl flex items-center gap-4 cursor-pointer font-medium hover:scale-105 transition-transform duration-200 lg:text-lg">View Projects<i class="fa-solid fa-arrow-right-long"></i></button></a>
+            </div>
+            <div class="flex items-center justify-center">
+                <img src="/heroImage.png" class="w-sm max-[465px]:w-xs" alt="">
+            </div>
+        </main>
+
+        <div id="about" class="px-7 py-14 md:px-18">
+            <div class="w-6/7">
+                <h1 class="text-2xl font-bold flex items-center gap-3 mb-5 lg:text-3xl"><i class="fa-regular fa-user text-lg bg-blue-200 p-2 rounded-xl mt-1"></i>About Me</h1>
+                <p class="text-gray-700 mb-5 lg:text-xl">I'm a Computer Science student at Northern University, Currently in my 4th year. I'm passionate about web development and love learning new technologies.</p>
+            </div>
+
+            <div class="py-2 md:px-5">
+                <div class="flex gap-4 mb-8">
+                    <i class="fa-solid fa-graduation-cap text-lg bg-blue-200 p-2 rounded-xl h-8.75 mt-2"></i>
+                    <div class="">
+                        <h2 class="text text-lg font-bold mb-1 lg:text-xl">Education</h2>
+                        <p class="text-gray-700 lg:text-lg">B.Sc in CSE (4rth year)</p>
+                        <p class="text-gray-700 lg:text-lg">Northern University</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-4 mb-8">
+                    <i class="fa-solid fa-bullseye text-lg bg-blue-200 p-2 rounded-xl h-8.75 mt-2"></i>
+                    <div>
+                        <h2 class="text text-lg font-bold mb-1 lg:text-xl">Goal</h2>
+                        <p class="text-gray-700 lg:text-lg">B.Sc in CSE (4rth year)</p>
+                        <p class="text-gray-700 lg:text-lg">Northern University</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-4 mb-8">
+                    <i class="fa-solid fa-heart text-lg bg-blue-200 p-2 rounded-xl h-8.75 mt-2"></i>
+                    <div>
+                        <h2 class="text text-lg font-bold mb-1 lg:text-xl">Interest</h2>
+                        <p class="text-gray-700 lg:text-lg">B.Sc in CSE (4rth year)</p>
+                        <p class="text-gray-700 lg:text-lg">Northern University</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="skill" class="px-7 md:px-18">
+            <h1 class="text-2xl font-bold flex items-center gap-3 mb-5 lg:text-3xl"><i class="fa-solid fa-laptop-code text-lg bg-blue-200 p-2 rounded-xl mt-1"></i>My Skills</h1>
+
+            <div class="grid grid-cols-2 gap-5 sm:grid-cols-3">
+                <div class="flex flex-col items-center justify-center gap-3 rounded-2xl bg-blue-50 p-3 transition duration-300 hover:-translate-y-1 hover:shadow-md">
+                    <i class="fa-brands fa-html5 text-5xl text-orange-600"></i>
+                    <p class="font-semibold text-slate-700">HTML</p>
+                </div>
+
+                <div class="flex flex-col items-center justify-center gap-3 rounded-2xl bg-blue-50 p-6 transition duration-300 hover:-translate-y-1 hover:shadow-md">
+                    <i class="fa-brands fa-css3-alt text-5xl text-blue-600"></i>
+                    <p class="font-semibold text-slate-700">CSS</p>
+                </div>
+
+                <div class="flex flex-col items-center justify-center gap-3 rounded-2xl bg-blue-50 p-6 transition duration-300 hover:-translate-y-1 hover:shadow-md">
+                    <i class="fa-solid fa-wind text-5xl text-cyan-500"></i>
+                    <p class="font-semibold text-slate-700">Tailwind CSS</p>
+                </div>
+
+                <div class="flex flex-col items-center justify-center gap-3 rounded-2xl bg-blue-50 p-6 transition duration-300 hover:-translate-y-1 hover:shadow-md">
+                    <i class="fa-brands fa-js text-5xl text-yellow-500"></i>
+                    <p class="font-semibold text-slate-700">JavaScript</p>
+                </div>
+
+                <div class="flex flex-col items-center justify-center gap-3 rounded-2xl bg-blue-50 p-6 transition duration-300 hover:-translate-y-1 hover:shadow-md">
+                    <i class="fa-brands fa-git-alt text-5xl text-orange-600"></i>
+                    <p class="font-semibold text-slate-700">Git</p>
+                </div>
+
+                <div class="flex flex-col items-center justify-center gap-3 rounded-2xl bg-blue-50 p-6 transition duration-300 hover:-translate-y-1 hover:shadow-md">
+                    <i class="fa-brands fa-github text-5xl text-black"></i>
+                    <p class="font-semibold text-slate-700">GitHub</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="project" class="px-7 py-12 md:px-18">
+            <h1 class="text-2xl font-bold flex items-center gap-3 mb-5 lg:text-3xl"><i class="fa-solid fa-diagram-project text-lg bg-blue-200 p-2 rounded-xl mt-1"></i>Projects</h1>
+
+            <div class="flex flex-wrap gap-6 items-center justify-center xl:grid xl:grid-cols-3">
+                <div class="px-5 py-4 border border-gray-200 shadow-md rounded-3xl mb-2 w-fit">
+                    <img class="w-100 mb-3" src="/project/project1.png" alt="">
+                    <h1 class="text-lg font-bold px-3 mb-1 lg:text-xl">Landing Page</h1>
+                    <p class="px-3 text-gray-700 mb-2 lg:text-lg">A simple landing page built with HTML and Tailwind css</p>
+                    <a href="https://github.com/rsrafi24/landing-page-with-tailwind" target="_blank"><button class="ml-3 bg-blue-700 text-white px-3 py-2 rounded-xl font-medium cursor-pointer lg:mt-5 lg:text-lg">Source Code</button></a>
+                </div>
+
+                <div class="px-5 py-4 border border-gray-200 shadow-md rounded-3xl mb-2 w-fit">
+                    <img class="w-100 mb-3" src="/project/project2.png" alt="">
+                    <h1 class="text-lg font-bold px-3 mb-1 lg:text-xl">Login Form</h1>
+                    <p class="px-3 text-gray-700 mb-2 lg:text-lg">A simple login form built with HTML and CSS</p>
+                    <a href="https://github.com/rsrafi24/Responsive-Contact-Us-Form.git" target="_blank"><button class="ml-3 bg-blue-700 text-white px-3 py-2 rounded-xl font-medium cursor-pointer lg:mt-5 lg:text-lg">Source Code</button></a>
+                    
+                </div>
+
+                <div class="px-5 py-4 border border-gray-200 shadow-md rounded-3xl mb-2 w-fit">
+                    <img class="w-100 mb-3" src="/project/project3.png" alt="">
+                    <h1 class="text-lg font-bold px-3 mb-1 lg:text-xl">Restaurent Website</h1>
+                    <p class="px-3 text-gray-700 mb-2 lg:text-lg">A restaurent website built with HTML and CSS</p>
+                    <a href="https://github.com/rsrafi24/restaurant_website.git" target="_blank"><button class="ml-3 bg-blue-700 text-white px-3 py-2 rounded-xl font-medium cursor-pointer lg:mt-5 lg:text-lg">Source Code</button></a>
+                    
+                </div>
+            </div>
+        </div>
+
+        <footer class="px-7 py-7 bg-slate-50 flex flex-col items-center" id="contact">
+            <h1 class="text-center text-xl font-bold">RS RAFI</h1>
+            <div class="flex gap-10 my-5">
+                <a href="https://www.linkedin.com/in/rsrafi2111/" target="_blank"><i class="fa-brands fa-linkedin text-4xl text-blue-900 cursor-pointer"></i></a>
+                <a href="https://wa.me/8801766335733" target="_blank"><i class="fa-brands fa-whatsapp text-4xl text-green-500 cursor-pointer"></i></a>
+                <a href="https://www.facebook.com/share/1GvER7tQDr/" target="_blank"><i class="fa-brands fa-square-facebook text-4xl text-blue-500 cursor-pointer"></i></a>
+            </div>
+            <p class="font-normal"><i class="fa-regular fa-copyright"></i> 2026 RS Rafi, All rights researved.</p>
+        </footer>
+    </body>
+</html>
